@@ -18,8 +18,8 @@ minimal: true             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   #- {file: "index.html"}
   #- {file: "README.md"}
-  - {file: "CV.pdf", title: "CV"}
-  - {title: "Portfolio", url: "portfolio.md"}
+  - {title: "CV", file: "CV.pdf"}
+  - {title: "Portfolio", file: "portfolio.md"}
   - {title: "Repositories", url: "https://github.com/Erfan-Mashayekh"}
 
 
