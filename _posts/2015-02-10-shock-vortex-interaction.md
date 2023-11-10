@@ -5,6 +5,9 @@ layout: post
 categories: media
 ---
 
+![Pressure Contours](/images/shockvortex_contours.png)
+
+
 ## Introduction
 
 For thirty years, researchers have devoted their efforts to expanding high-precision techniques aimed at capturing shock waves. One of these approaches, the high-order compact method, has demonstrated accuracy in handling such flows. However, a drawback lies in its tendency to oscillate across the computational field. Attempts have been made to improve this method, either through design modifications or increasing its formal order. The evaluation of these methods involves analyzing them in Fourier space and other approaches.
@@ -30,3 +33,4 @@ where $$ \tau = r/r_c$$ and $$ r = \sqrt{ (x - x_c)^2 + (y - y_c)^2 } $$ and the
 
 The figure displays the pressure distribution along $$ y = 0.5 $$ section at $$ t = 0.6 $$ before and after the shock. These results are derived from a grid of dimensions $$ \[ 251 \times 101 \] $$ and leverage a constant time-step of $$ \Delta t = 0.001 $$. The results have a good agreement with [Darian et al.](https://doi.org/10.1016/j.jcp.2010.09.028) pressure values.
 
+![Pressure Distributions](/images/shockvortex_pressurelines.png)
