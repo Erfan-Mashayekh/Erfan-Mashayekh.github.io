@@ -20,7 +20,7 @@ This problem is a two-dimensional test case that describes the interaction betwe
 
 A stationary shock with a Mach number of 1.1 is located at x = 0.5 and perpendicular to the x-axis. Its left state is defined as $$ (\rho, u, v, p)=(1, 1.1\sqrt{\gamma}, 0, 1) $$, while the right state is determined using the normal-shock (Rankine–Hugoniot) relations. Additionally, a small vortex is introduced into the flow preceding the shock, centered at $$ (x_c , y_c ) = (0.25, 0.5) $$. This vortex affects the mean flow's velocity $$ (u, v)$$, temperature $$ (T = p/q)$$, and entropy $$ (s = \ln{p / \rho ^ \gamma}) as perturbations, represented by the hat values.
 
-
+$$ \hat{u} = \epsilon \taw e^{\alpha (1-\taw ^ 2)} \sin(\theta) $$
 
 
 
