@@ -24,7 +24,7 @@ Using the level set function, nodes are categorized into three groups: fluid, gh
 
 $$ d_{Fp} > 0, \quad  -2 \sqrt{2} \Delta x \leq d_{Gp} \leq 0, \quad d_{Op} < -2 \sqrt{2} \Delta x $$
 
-<img src="/images/ibm_ibm.jpg"  width="300">
+![ibm](/images/ibm_ibm.jpg){ width="300" style="display: block; margin: 0 auto" }
 
 ## Results
 
