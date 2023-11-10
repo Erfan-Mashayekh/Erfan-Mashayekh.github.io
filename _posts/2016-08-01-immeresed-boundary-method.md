@@ -5,7 +5,7 @@ layout: post
 categories: media
 ---
 
-![Pressure Contours](/images/ibm_contours_top.png)
+![Desnity Contours](/images/ibm_contours_top.png)
 
 
 ## Introduction
