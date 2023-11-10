@@ -10,9 +10,9 @@ categories: media
 
 ## Introduction
 
-For thirty years, researchers have devoted their efforts to expanding high-precision techniques aimed at capturing shock waves. One of these approaches, the high-order compact method, has demonstrated accuracy in handling such flows. However, a drawback lies in its tendency to oscillate across the computational field. Attempts have been made to improve this method, either through design modifications or increasing its formal order. The evaluation of these methods involves analyzing them in Fourier space and other approaches.
+For years, researchers have devoted their efforts to expanding high-precision techniques aimed at capturing shock waves. One of these approaches, the high-order compact method, has demonstrated accuracy in handling such flows. However, a drawback lies in its tendency to oscillate across the computational field. Attempts have been made to improve this method, either through design modifications or increasing its formal order. The evaluation of these methods involves analyzing them in Fourier space and other approaches.
 
-Another suggested approach involves combining low-dissipation schemes with shock-capturing methods around discontinuous regions, necessitating the identification of nonlinear features within the computational domain. These methods add a dissipation term through a post-processing step known as numerical filtering.  [Visbal et al.](https://doi.org/10.2514/6.2005-1265) proved that a second-order linear filter is effective for discontinuous regions. Here, the challenge is establishing a shock detector that accurately distinguishes shocks from other gradients, specifically channeling shock-capturing dissipation solely to regions containing shocks.
+Another suggested approach involves combining low-dissipation schemes with shock-capturing methods around discontinuous regions. These methods add a dissipation term through a post-processing step known as numerical filtering.  [Visbal et al.](https://doi.org/10.2514/6.2005-1265) proved that a second-order linear filter is effective for discontinuous regions. Here, the challenge is establishing a shock detector that accurately distinguishes shocks from other gradients, specifically channeling shock-capturing dissipation solely to regions containing shocks.
 
 [Bogey et al.](https://doi.org/10.1016/j.jcp.2008.10.042) used a sensor reliant on the high-frequency aspects of pressure to switch between optimized second-order and higher-order filters. In this study, the sensor developed by [Darian et al.](https://doi.org/10.1016/j.jcp.2010.09.028)  is employed, featuring an advanced shock-detecting sensor for filtration in simulations. This sensor is designed to switch between second and higher-order filters based on an analysis of their order and smoothness. Additionally, it introduces a scaling method to handle large and small-scale errors differently by adjusting dissipation in proportion to shock strength while minimizing the impact of the second-order filter on very small scales.
 
@@ -34,3 +34,12 @@ where $$ \tau = r/r_c$$ and $$ r = \sqrt{ (x - x_c)^2 + (y - y_c)^2 } $$ and the
 The figure displays the pressure distribution along $$ y = 0.5 $$ section at $$ t = 0.6 $$ before and after the shock. These results are derived from a grid of dimensions $$ [ 251 \times 101 ] $$ and leverage a constant time-step of $$ \Delta t = 0.001 $$. The results have a good agreement with [Darian et al.](https://doi.org/10.1016/j.jcp.2010.09.028) pressure values.
 
 ![Pressure Dist](/images/shockvortex_pressuredist.png)
+
+### Required Skill-Set to generate this data:
+
+- C++
+- CFD
+- Adaptive filtering
+- Compact finite difference methods
+- Compressible flow
+- Supersonic flow
