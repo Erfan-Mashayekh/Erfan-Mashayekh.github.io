@@ -22,15 +22,15 @@ In this approach, the boundary is defined using the level set method, which esta
 
 Using the level set function, nodes are categorized into three groups: fluid, ghost, and object depicted in the figure. The ghost nodes act as a protective boundary between the fluid and object regions, being assigned in two layers based on the current definition.
 
-![Immersed boundary cells](/images/ibm_ibm.jpg){ width=60% }
+$$ d_{Fp} > 0, \quad  -2 \sqrt{2} \Delta x \leq d_{Gp} \leq 0, \quad d_{Op} < -2 \sqrt{2} \Delta x $$
+
+![Immersed boundary cells](/images/ibm_ibm.jpg =250x)
 
 ## Results
 
 The study conducts simulations on two distinct flow fields. The first scenario involves supersonic flow over a circular cylinder, yielding promising estimations of shock waves and the flow patterns around the cylinder. The second test case focuses on simulating subsonic flow around a similar cylinder to evaluate mechanics in the wake region and the phenomenon of vortex shedding. Across these test cases, the Mach number 2 and 0.3 respectively, while maintaining a Reynolds number of 300. Notably, the estimation of force coefficients shows a correct order of magnitude for the subsonic case.
 
 The application of an immersed boundary method notably showcased a high level of accuracy in achieving global convergence, particularly in the context of supersonic flows. This thesis’ findings present a promising advancement in resolving complex flow problems, particularly in scenarios demanding precise estimations and analysis.
-
-$$ d_{Fp} > 0, \quad  -2 \sqrt{2} \Delta x \leq d_{Gp} \leq 0, \quad d_{Op} < -2 \sqrt{2} \Delta x $$ 
 
 ![Pressure Contours](/images/shockvortex_contours.png)
 
