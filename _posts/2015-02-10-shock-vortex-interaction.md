@@ -24,9 +24,7 @@ $$ \hat{u} = \epsilon \tau e^{\alpha (1-\tau ^ 2)} \sin(\theta) $$,
 
 $$ \hat{v} = -\epsilon \tau e^{\alpha (1-\tau ^ 2)} \cos(\theta) $$,
 
-$$ \hat{T} = -\frac{(\gamma-1) \epsilon^2 e^{2 \alpha (1 - \tau^2)}}{4 \alpha \gamma} $$, and 
+$$ \hat{T} = -\frac{(\gamma-1) \epsilon^2 e^{2 \alpha (1 - \tau^2)}}{4 \alpha \gamma} $$, and $$ \hat{s}=0 $$.
 
-$$ \hat{s}=0 $$
-
-
+where $$ \tau = r/r_c$$ and $$ r = \sqrt{ (x - x_c)^2 + (y - y_c)^2 } $$ and the angle $$ \theta $$ is measured with reference to the vortex core $$ (x_c , y_c )$$. Here, $$ \epsilon $$ indicates the strength of the vortex, $$ \alpha $$ controls the decay rate of the vortex, and $$ r_c $$ is the critical radius for which the vortex has  the maximum strength. Similar to [Darian et al.](https://doi.org/10.1016/j.jcp.2010.09.028) we take the computational domain to be $$ [0, 2] \times [0, 1]$$ and also $$ \epsilon = 0.3 $$, $$ r_c = 0.05 $$, and  $$ \alpha = 0.204 $$.
 
