@@ -33,4 +33,4 @@ where $$ \tau = r/r_c$$ and $$ r = \sqrt{ (x - x_c)^2 + (y - y_c)^2 } $$ and the
 
 The figure displays the pressure distribution along $$ y = 0.5 $$ section at $$ t = 0.6 $$ before and after the shock. These results are derived from a grid of dimensions $$ [ 251 \times 101 ] $$ and leverage a constant time-step of $$ \Delta t = 0.001 $$. The results have a good agreement with [Darian et al.](https://doi.org/10.1016/j.jcp.2010.09.028) pressure values.
 
-![Pressure Distributions](/images/shockvortex_pressurelines.png)
+![Pressure Distributions](/images/shockvortex_pressurelines2.png)
