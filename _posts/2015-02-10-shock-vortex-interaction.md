@@ -35,7 +35,7 @@ The figure displays the pressure distribution along $$ y = 0.5 $$ section at $$ 
 
 ![Pressure Dist](/images/shockvortex_pressuredist.png)
 
-### Required Skill-Set to generate this data:
+### Required Skill-Set to generate these results:
 
 - C++
 - CFD
