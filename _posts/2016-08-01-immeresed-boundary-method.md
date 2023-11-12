@@ -24,6 +24,8 @@ Using the level set function, nodes are categorized into three groups: fluid, gh
 
 $$ d_{Fp} > 0, \quad  -2 \sqrt{2} \Delta x \leq d_{Gp} \leq 0, \quad d_{Op} < -2 \sqrt{2} \Delta x $$
 
+image points can be located by reflecting ghost points relative to the solid object's boundary (IB). This is achieved by determining the normal vector from the ghost point and then doubling its magnitude.
+
 <img src="/images/ibm_ibm.jpg" alt="Picture" width="500" style="display: block; margin: 0 auto" />
 
 ## Results
@@ -33,6 +35,10 @@ The study conducts simulations on two distinct flow fields. The first scenario i
 The application of an immersed boundary method notably showcased a high level of accuracy in achieving global convergence, particularly in the context of supersonic flows. This thesis’ findings present a promising advancement in resolving complex flow problems, particularly in scenarios demanding precise estimations and analysis.
 
 ![Pressure Contours](/images/shockvortex_contours.png)
+
+Assuming a linear distribution along the velocity, pressure, and density fields, this formula can be applied to calculate the values at ghost points.
+
+$$ \phi_{Gp} = \phi_{Ip} - \frac{d_{Ip} + d_{Gp}}{d_{Ip}} (\phi_{Ip} - \phi_{IB}) $$
 
 ### Required Skill-Set to generate these results:
 
