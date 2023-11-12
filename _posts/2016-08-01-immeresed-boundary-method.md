@@ -39,9 +39,26 @@ The study conducts simulations on two distinct flow fields. The first scenario i
 
 The application of an immersed boundary method notably showcased a high level of accuracy in achieving global convergence, particularly in the context of supersonic flows. This thesis’ findings present a promising advancement in resolving complex flow problems, particularly in scenarios demanding precise estimations and analysis.
 
+### Supersonic flow
+
 | ![Supersonic Contours](/images/ibm_supcontcompare.png) |
 |:--:|
-| *Density contours over a circular cylinder at mach number 2. (Left) Results of this study; (Right) Results of [Takahashi et al.](https://www.hindawi.com/journals/jam/2014/252478/).* |
+| *Density contours over the circular cylinder at mach 2. (Left) Results of this study; (Right) Results of [Takahashi et al.](https://www.hindawi.com/journals/jam/2014/252478/).* |
+
+| ![Supersonic Pressure Coefficients](/images/ibm_pressurecoeffscomp.png) |
+|:--:|
+| *Pressure coefficient distribution over the circular cylinder at mach 2. D denotes the diameter of the cylinder.* |
+
+### Subsonic flow
+
+| ![Subsonic Contours](/images/ibm_subcontcomp.png) |
+|:--:|
+| *Density contours over the circular cylinder at mach 0.3. (Left) Results of this study; (Right) Results of [Takahashi et al.](https://www.hindawi.com/journals/jam/2014/252478/).* |
+
+| ![Lift Drag Coefficients](/images/ibm_liftdrag.jpg) |
+|:--:|
+| *Average lift and drag coefficients over the circular cylinder at mach 0.3.* |
+
 
 ### Required Skill-Set to generate these results:
 
