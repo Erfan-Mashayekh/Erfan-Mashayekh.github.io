@@ -52,11 +52,13 @@ The application of an immersed boundary method notably showcased a high level of
 ![Subsonic Contours](/images/ibm_subcontcomp.png)
 *Density contours over the circular cylinder at mach 0.3. (Left) Results of this study; (Right) Results of [Takahashi et al.](https://www.hindawi.com/journals/jam/2014/252478/).*
 
+<img src="/images/ibm_ibm.jpg" alt="Picture" width="500" style="display: block; margin: 0 auto" />
+
 <figure>
     <img src="/images/ibm_liftdrag.jpg"
-        alt="Lift Drag Coefficients">
+        alt="Lift Drag Coefficients"
         width="500"
-        style="display: block; margin: 0 auto"
+        style="display: block; margin: 0 auto">
     <figcaption>Average lift and drag coefficients over the circular cylinder at mach 0.3.</figcaption>
 </figure>
 
