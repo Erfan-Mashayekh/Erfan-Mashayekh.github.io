@@ -45,7 +45,7 @@ The application of an immersed boundary method notably showcased a high level of
 *Density contours over the circular cylinder at mach 2. (Left) Results of this study; (Right) Results of [Takahashi et al.](https://www.hindawi.com/journals/jam/2014/252478/).*
 
 ![Supersonic Pressure Coefficients](/images/ibm_pressurecoeffscomp.png)
-*Pressure coefficient distribution over the circular cylinder at mach 2. D denotes the diameter of the cylinder.*
+*Pressure coefficient distribution over the circular cylinder at mach 2. "D" denotes the diameter of the cylinder, and "dx" is the size of the grid.*
 
 ### Subsonic flow
 
