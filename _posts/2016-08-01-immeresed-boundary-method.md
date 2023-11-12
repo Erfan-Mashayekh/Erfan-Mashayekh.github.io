@@ -28,17 +28,20 @@ image points can be located by reflecting ghost points relative to the solid obj
 
 <img src="/images/ibm_ibm.jpg" alt="Picture" width="500" style="display: block; margin: 0 auto" />
 
+Assuming a linear distribution along the velocity, pressure, and density fields, this formula can be applied to calculate the values at ghost points.
+
+$$ \phi_{Gp} = \phi_{Ip} - \frac{d_{Ip} + d_{Gp}}{d_{Ip}} (\phi_{Ip} - \phi_{IB}) $$
+
+
 ## Results
 
 The study conducts simulations on two distinct flow fields. The first scenario involves supersonic flow over a circular cylinder, yielding promising estimations of shock waves and the flow patterns around the cylinder. The second test case focuses on simulating subsonic flow around a similar cylinder to evaluate mechanics in the wake region and the phenomenon of vortex shedding. Across these test cases, the Mach number 2 and 0.3 respectively, while maintaining a Reynolds number of 300. Notably, the estimation of force coefficients shows a correct order of magnitude for the subsonic case.
 
 The application of an immersed boundary method notably showcased a high level of accuracy in achieving global convergence, particularly in the context of supersonic flows. This thesis’ findings present a promising advancement in resolving complex flow problems, particularly in scenarios demanding precise estimations and analysis.
 
-![Pressure Contours](/images/shockvortex_contours.png)
+![Supersonic Contours](/images/ibm_supcontcompare.png)
+* Density contours over a circular cylinder at mach number 2. (Left) Results of this study; (Right) Results of [Takahashi et al.](https://www.hindawi.com/journals/jam/2014/252478/). *
 
-Assuming a linear distribution along the velocity, pressure, and density fields, this formula can be applied to calculate the values at ghost points.
-
-$$ \phi_{Gp} = \phi_{Ip} - \frac{d_{Ip} + d_{Gp}}{d_{Ip}} (\phi_{Ip} - \phi_{IB}) $$
 
 ### Required Skill-Set to generate these results:
 
