@@ -15,6 +15,7 @@ categories: media
 - Compact finite difference methods
 - Compressible flow
 - Supersonic flow
+- Subsonic flow
 - Validation
 
 
