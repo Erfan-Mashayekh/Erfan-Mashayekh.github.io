@@ -44,19 +44,21 @@ The application of an immersed boundary method notably showcased a high level of
 ![Supersonic Contours](/images/ibm_supcontcompare.png)
 *Density contours over the circular cylinder at mach 2. (Left) Results of this study; (Right) Results of [Takahashi et al.](https://www.hindawi.com/journals/jam/2014/252478/).*
 
-| ![Supersonic Pressure Coefficients](/images/ibm_pressurecoeffscomp.png) |
-|:--:|
-| *Pressure coefficient distribution over the circular cylinder at mach 2. D denotes the diameter of the cylinder.* |
+![Supersonic Pressure Coefficients](/images/ibm_pressurecoeffscomp.png)
+*Pressure coefficient distribution over the circular cylinder at mach 2. D denotes the diameter of the cylinder.*
 
 ### Subsonic flow
 
-| ![Subsonic Contours](/images/ibm_subcontcomp.png) |
-|:--:|
-| *Density contours over the circular cylinder at mach 0.3. (Left) Results of this study; (Right) Results of [Takahashi et al.](https://www.hindawi.com/journals/jam/2014/252478/).* |
+![Subsonic Contours](/images/ibm_subcontcomp.png)
+*Density contours over the circular cylinder at mach 0.3. (Left) Results of this study; (Right) Results of [Takahashi et al.](https://www.hindawi.com/journals/jam/2014/252478/).*
 
-| ![Lift Drag Coefficients](/images/ibm_liftdrag.jpg) |
-|:--:|
-| *Average lift and drag coefficients over the circular cylinder at mach 0.3.* |
+<figure>
+    <img src="/images/ibm_liftdrag.jpg"
+        alt="Lift Drag Coefficients">
+        width="500"
+        style="display: block; margin: 0 auto"
+    <figcaption>Average lift and drag coefficients over the circular cylinder at mach 0.3.</figcaption>
+</figure>
 
 
 ### Required Skill-Set to generate these results:
