@@ -17,6 +17,7 @@ categories: media
 - Supersonic flow
 - Validation
 
+
 ## Introduction
 
 Engineering, medical, and environmental applications of flow problems often demand resolving complicated solid-fluid interactions. A finite difference method is a convenient tool for exploring these problems. One of the most popular choices for spatial discretization is the cartesian grid as they have clearly expressed stencils and are typically simple to generate at a low computation cost. This research project describes a cartesian model based on the ghost cell immersed boundary method accompanying a high-order numerical approach to simulate viscous compressible flows with arbitrary boundaries. The idea is to combine fourth-order compact finite difference schemes with a direct forcing approach of the immersed boundary method. Moreover, a nonlinear filter with an associated sensor was used to ensure the damping of the high-frequency waves in smooth regions and also the disappearance of Gibbs oscillations around the discontinuities while using high-order compact finite difference schemes.
